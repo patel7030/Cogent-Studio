@@ -1,0 +1,54 @@
+.contact {
+  background-color: black;
+  color: white;
+}
+.row{
+  padding-top: 20px;
+}
+
+
+.panel-footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+
+.hov:hover{
+    transform:scale(110%);
+    
+}
+
+
+
+/*ads*/
+#ads {
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: solid 1px #c3c3c3;
+  width: 150px;
+  box-shadow: darkred 5px 5px;
+
+  /*width: 70px;*/
+}
+#ads:hover{
+  background-color: darkred;
+  color: black;
+  box-shadow: black 5px 5px;
+  transform: scale(1.1);
+
+}
+
+#panel {
+  /*padding: 50px;*/
+  display: none;
+}
+#panel img{
+  width: 150px;
+  padding: 0;
+  height: 150px;
+  border: solid black 5px;
+}

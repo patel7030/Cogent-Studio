@@ -1,0 +1,28 @@
+.col img{
+  
+   height: 200px;
+  width:400px ;
+  border: skyblue solid 2px;
+
+}
+.row{
+	padding: 20px;
+}
+.col{
+	padding-bottom: 20px;
+}
+.col img:hover {
+   
+   transform:scale(110%);
+  
+
+}
+#myCarousel img{
+	background-color: black;
+}
+h2{
+   color: darkred;
+   padding: 0;
+}
+ 
+

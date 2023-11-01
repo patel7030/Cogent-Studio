@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Nav.css">
+  <link rel="stylesheet" type="text/css" href="contact.css">
+
+  <style type="text/css">
+    
+
+</style>
+  <script type="text/javascript">
+
+    function btn(){
+
+    alert("Form Submit Successfuly ");
+    }
+
+
+    $(document).ready(function(){
+
+    $("input").focus(function(){
+
+      $(this).css("background-color","darkred");
+
+    });
+
+    $("input").blur(function(){
+
+      $(this).css("background-color","white");
+
+    });
+
+      
+    });
+
+  </script>  
+
+</head>
+<body class="contact" style="background-image: url(https://img.freepik.com/premium-photo/blue-vintage-dial-telephone-handset_180224-121.jpg?size=626&ext=jpg&ga=GA1.1.810828362.1689924445&semt=ais);">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class=" icon-bar"></span>
+        <span class=" icon-bar"></span>
+        <span class=" icon-bar"></span>                        
+      </button>
+      <a  href="#"><img class="logo" src="Logo.jpg" ></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a href="Home.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li class="active"><a href="#">Contact</a></li>
+      </ul>
+   
+    </div>
+  </div>
+</nav>
+
+  <div class="container col1  " style="margin-top: 200px;">
+    <div class="row">
+        <div class="col-md-6 ">
+            <p><b>AR.Dimpal Patel</b> <br>Arcitecture<br> Contact No :<a href="tel: +8806195858" style="background-color: black;">8806195858</a><br></p>
+            <br>
+            <p><b>email : </b></p>
+            <p><b>ID.Shruti Patil</b> <br>Interior Desidner<br> Contact No :<a href="tel: +7972539800 " style="background-color: black;">7972539800 </a></p><br>
+            <p><b>email : </b></p>
+            <center><p style="padding-top: 220px;"><strong>Location: SHAHADA | NANDURBAR | PUNE | NASHIK</strong></p></center>
+        </div>
+
+    <div class="row">
+        <div class="col-md-6" style=" text-align: right;">
+            <fieldset >
+              <legend>Enquire Form</legend>
+      <form>
+      
+      <label><strong>Name</strong></label><br>
+      <input type="name"  placeholder=" First Name"  name="" align="right" required>
+      <input type="name"  placeholder=" Middel Name"  name="" align="right" required>
+      <input type="name"  placeholder=" Last Name"  name="" align="right" required>
+
+      <br>
+      <br>
+    
+      <label><strong>Email</strong></label><br>
+      <input type="email" placeholder="Enter Your Email" style="width: 200px;"  name="">
+      <br>
+      <br>
+      <label><strong>contact no:</strong></label><br>
+      <input type="number" placeholder="Enter Your Contact No"  style="width: 200px;"   name="" required>
+      <br>
+      <br>
+
+
+     
+      <div class="row">
+        <div class="col col-lg-6">
+          <label><strong>Enquiry For :  </strong></label><br>
+      <select required>     
+      <option> Select
+        <option>INTERIOR</option>
+          <option>Residential</option>
+          <option>Commercial</option>
+          <option>Completed_Projects</option>
+          <option>Villas&Resorts</option>
+      </select>
+        </div>
+        <div class="col col-lg-6">
+              <label><strong>Location : </strong></label><br>
+      <select required>
+        <option>Select</option>
+        <option> SHAHADA</option>
+        <option>NANDURBAR </option>
+        <option>NASHIK</option>
+        <option>PUNE</option>
+
+      </select>
+        </div>
+    
+      
+      </div>
+   
+      <br>
+      <br>
+      <button class="sub" onclick="btn()" >Submit</button>
+    </form>
+  </fieldset>
+     
+        </div>
+    </div>
+
+    <center>
+    <div class="row" style="padding-top: 50px;">
+
+    <div class="col col-lg-12" style="padding-top: 20px;">
+     
+    </div>
+  </div>
+  </center>
+</div>
+
+  </div>
+</div>
+</body>
+</html>

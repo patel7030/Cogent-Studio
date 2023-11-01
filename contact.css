@@ -1,0 +1,62 @@
+    body{
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    a:hover{
+      color: red;
+
+    }
+    a{
+      transform: scale(110%);
+    }
+    fieldset{
+    background-color: white;
+    color: black;
+    height: 500px;
+    width: 500px;
+    box-shadow: 20px 20px skyblue;
+    text-align: left;
+    background-image: url(https://media.istockphoto.com/id/174081040/photo/contact-details.jpg?s=612x612&w=0&k=20&c=5RF2800BgU-vpEUp0p08R06yoNqPTL2T72pOeJq3bWU=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    }
+  
+    fieldset:hover{
+    box-shadow: 20px 20px darkred;
+    }
+    
+    .sub{
+    background-color: green;
+    color: black;
+    height: 30px;
+    width: 100px;
+    box-shadow: 5px 5px ;
+    margin-left: 300px;
+    }
+    
+    .sub:hover{
+    background-color: darkred;
+    color: white;
+    box-shadow: 5px 5px skyblue ;
+    }
+    
+    input{
+    align="right"
+    color: white;
+    width: 100px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+  
+    input::placeholder{
+    color: gray;
+    }
+
+    select{
+    height: 25px;
+    margin-top: 10px;
+    width: 100px;
+    }
+
